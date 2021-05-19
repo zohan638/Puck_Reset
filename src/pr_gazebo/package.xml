@@ -4,19 +4,12 @@
   <version>0.0.0</version>
   <description>The pr_gazebo package</description>
 
-  <maintainer email="shreyverma.2000@gmail.com">zohan</maintainer>
-
-  <license>BSD</license>
+  <maintainer email="shreyverma.2000@gmail.com">Shrey Verma</maintainer>
+  <license>MIT</license>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>gazebo_ros</build_depend>
   <build_export_depend>gazebo_ros</build_export_depend>
   <exec_depend>gazebo_ros</exec_depend>
 
-
-  <!-- The export tag contains other, unspecified, tags -->
-  <export>
-    <!-- Other tools can request additional information be placed here -->
-
-  </export>
 </package>
