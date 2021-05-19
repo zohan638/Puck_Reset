@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>
-    <param name="table_desc" command="$(find xacro)/xacro --inorder '$(find pr_description)/urdf/model.urdf'" />
+    <param name="table_desc" command="$(find xacro)/xacro --inorder '$(find pr_description)/urdf/table.urdf'" />
 
     <arg name="x" default="0"/>
     <arg name="y" default="0"/>
