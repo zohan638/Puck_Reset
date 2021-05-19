@@ -10,10 +10,10 @@ find_package(gazebo REQUIRED)
 
 include_directories(include ${catkin_INCLUDE_DIRS} ${GAZEBO_INCLUDE_DIRS} ${SDFormat_INCLUDE_DIRS})
 
-catkin_package(
-  DEPENDS
-    gazebo_ros
-  CATKIN_DEPENDS
-  INCLUDE_DIRS
-  LIBRARIES
-)
+# catkin_package(
+#   DEPENDS
+#     gazebo_ros
+#   CATKIN_DEPENDS
+#   INCLUDE_DIRS
+#   LIBRARIES
+# )

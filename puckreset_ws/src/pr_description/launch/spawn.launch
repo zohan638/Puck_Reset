@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <param name="table_desc" command="$(find xacro)/xacro --inorder '$(find pr_description)/urdf/model.urdf'" />
+
+    <arg name="x" default="0"/>
+    <arg name="y" default="0"/>
+    <arg name="z" default="0.5"/>
+
+    <node name="table" pkg="gazebo_ros" type="spawn_model" output="screen"
+        args="-urdf -param table_desc -model air_hockey_table -x $(arg x) -y $(arg y) -z $(arg z)" />
+</launch>
